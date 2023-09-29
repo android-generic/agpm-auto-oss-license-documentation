@@ -7,3 +7,7 @@ The script will look for the usual license, copying files and parse the license 
 ### Usage:
 
 bash aold.sh {-d|--debug} path/to/project
+
+### Example:
+
+You can find an example of the output on the [BlissRoms-x86 repo](https://github.com/BlissRoms-x86/oss-licenses) 
