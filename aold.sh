@@ -137,6 +137,8 @@ List of OSS Licenses
 
 This document lists the OSS licenses used in $current_folder_name.
 
+This document was generated using Android-Generic Project Manager's [auto-oss-license-documentation](https://github.com/android-generic/agpm-auto-oss-license-documentation) script
+
 ## License Location
 
 EOF
