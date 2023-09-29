@@ -148,8 +148,10 @@ for license in "${licenses[@]}"; do
   # for each_license_file in "$license"; do
   IFS=$'\n' read -r -d '' -a each_license_files <<< "$license"; 
   for each_license_file in "${each_license_files[@]}"; do
+    # get directory name of $each_license_file
+    each_license_file_dir=$(dirname "$each_license_file")
 
-    echo "### License file:" >> "$markdown_file"
+    echo "### License in: $each_license_file_dir" >> "$markdown_file"
     echo "$each_license_file" >> "$markdown_file"
 
     # if license file contains any of the known license types, echo that type to the file also
